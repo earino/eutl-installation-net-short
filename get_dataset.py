@@ -46,16 +46,16 @@ LAYOUT = {
 }
 # Recorded at packaging time from the gate's artifact block; the manifest is the authority.
 EXPECTED = {
-    "public-train.csv": {"bytes": 980529,
-                         "sha256": "4a032f68c4ad944a0b5d6ef96a904d4d13f3c3eb8b228e2fa74c3174b8054e94"},
-    "public-eval.csv": {"bytes": 474335,
-                        "sha256": "2f1dcafb6cc701b1427a74d1969733f290ed6de030ed849a6988dcab31722a0d"},
-    "private-holdout.csv": {"bytes": 244586,
-                            "sha256": "b00bf00bd4f918ce434b9821535669d465c9a63bab53b21f90f187f4c33c0ac4"},
-    "meta.json": {"bytes": 2606,
-                  "sha256": "5f3852f3150cd808a1f58b7aa7f77c932ef315bb857628c6eff56a4530f06381"},
-    "quality.json": {"bytes": 7131,
-                     "sha256": "a7343bd15a119c67f2ef79ba5b10f5414a6ef406fdeeb81772b22ba1bccf3789"},
+    "public-train.csv": {"bytes": 9421952,
+                         "sha256": "c7f23c557d9605c92ba787d199922a1978f712f9b1069926ac5d63236331e903"},
+    "public-eval.csv": {"bytes": 1660374,
+                        "sha256": "0d9f35d5393734a9a63457890a9c4177418199b2cae458b36a8687fdbd4253ab"},
+    "private-holdout.csv": {"bytes": 1507248,
+                            "sha256": "1c694e5e6b0bc0b329c5934e24037fb7229326ffac1806db6e0655fe0439de9b"},
+    "meta.json": {"bytes": 2810,
+                  "sha256": "b0e54387f5a5348dc381989a61f017248412c2c5f8220ad9f8a8f032735aa152"},
+    "quality.json": {"bytes": 10270,
+                     "sha256": "88222d66bfd02aa5f768791e5d8d8803822b3b63f21d4d2e6397c9b638bef87b"},
 }
 URL = "https://github.com/{repo}/releases/download/{tag}/{name}"
 
